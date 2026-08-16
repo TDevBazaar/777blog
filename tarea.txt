@@ -1,0 +1,321 @@
+# Prompt
+
+Actúa como un arquitecto de software senior, experto en Next.js, UX/UI, SEO técnico, accesibilidad, rendimiento web y diseño de productos escalables.
+
+Quiero construir una plataforma web cristiana moderna, optimizada para SEO, diseñada para crecer hasta miles de páginas y millones de visitas. No quiero un simple blog, sino un ecosistema de contenido, herramientas interactivas y recursos bíblicos que se convierta en la referencia en español.
+
+## Objetivo
+
+Crear una plataforma que genere tráfico orgánico desde Google y tráfico social desde Facebook, Pinterest, Telegram y otras redes, monetizada principalmente mediante publicidad.
+
+La plataforma debe ser extremadamente rápida, responsive, accesible y preparada para escalar.
+
+---
+
+## Tecnologías
+
+Frontend:
+
+con next y esta en la carpeta de diseño
+
+
+
+---
+
+
+
+## SEO
+
+Debe implementar desde el inicio:
+
+Metadata dinámica
+
+Open Graph
+
+Twitter Cards
+
+Canonical URLs
+
+Breadcrumbs
+
+Sitemap automático
+
+Robots.txt
+
+JSON-LD
+
+Schema.org
+
+URLs amigables
+
+SSR cuando beneficie al SEO
+
+Optimización Core Web Vitals
+
+Lazy Loading
+
+Optimización de imágenes
+
+---
+
+## Arquitectura
+
+Diseñar una arquitectura modular.
+
+Cada módulo debe ser independiente.
+
+No generar código duplicado.
+
+Reutilizar componentes.
+
+Preparado para miles de páginas.
+
+---
+
+# Módulos
+
+## Inicio
+
+Hero principal
+
+Versículo del día
+
+Herramientas populares
+
+Artículos recientes
+
+Categorías
+
+Buscador
+
+CTA
+
+Newsletter
+
+---
+
+## Blog
+
+Categorías
+
+Etiquetas
+
+Autor
+
+Artículos relacionados
+
+Comentarios
+
+Compartir
+
+Índice automático
+
+Tiempo de lectura
+
+---
+
+## Versículo del día
+
+Versículo
+
+Explicación
+
+Aplicación
+
+Compartir
+
+Histórico
+
+---
+
+## Buscador bíblico
+
+Buscar por:
+
+Tema
+
+Libro
+
+Capítulo
+
+Palabra
+
+Personaje
+
+Lugar
+
+---
+
+## Herramientas
+
+Crear un sistema reutilizable para herramientas.
+
+Ejemplos:
+
+Buscador de versículos
+
+Generador de oraciones
+
+Planes de lectura
+
+Quiz bíblico
+
+Cronología bíblica
+
+Árbol genealógico
+
+Mapa bíblico
+
+Buscador de nombres bíblicos
+
+Comparador de personajes
+
+Generador de devocionales
+
+Calculadora de tiempo de lectura
+
+Favoritos
+
+Cada herramienta debe poder añadirse fácilmente mediante configuración sin modificar toda la aplicación.
+
+---
+
+## Biblioteca Bíblica
+
+Personajes
+
+Libros
+
+Profetas
+
+Reyes
+
+Apóstoles
+
+Milagros
+
+Parábolas
+
+Eventos históricos
+
+Lugares
+
+Cronología
+
+Cada elemento tendrá su propia página SEO.
+
+---
+
+## Comunidad
+
+Registro
+
+Login
+
+Favoritos
+
+Notas personales
+
+Historial
+
+Planes de lectura
+
+Progreso
+
+---
+
+## Administración
+
+CMS propio.
+
+Administrar:
+
+Artículos
+
+Herramientas
+
+Versículos
+
+Categorías
+
+Usuarios
+
+Comentarios
+
+Imágenes
+
+SEO
+
+---
+
+## Rendimiento
+
+Optimizar para obtener 95+ en Lighthouse.
+
+---
+
+## Accesibilidad
+
+Cumplir WCAG AA.
+
+---
+
+## Seguridad
+
+Rate limiting
+
+Validaciones
+
+Sanitización
+
+Protección XSS
+
+Protección CSRF
+
+Protección SQL Injection
+
+JWT
+
+Roles
+
+---
+
+## Escalabilidad
+
+El sistema debe soportar fácilmente:
+
+2000+ artículos
+
+500+ herramientas
+
+100000+ usuarios
+
+1 millón de visitas mensuales
+
+---
+
+## Entregables
+
+Antes de escribir código:
+
+1. Arquitectura completa.
+
+2. Estructura de carpetas.
+
+3. Modelo de base de datos.
+
+4. Flujo de navegación.
+
+5. Wireframes.
+
+6. Diseño UI.
+
+7. Componentes reutilizables.
+
+8. Estrategia SEO.
+
+9. Plan de desarrollo por fases.
+
+10. Roadmap completo.
+
+Después de aprobar el diseño, desarrollar el proyecto módulo por módulo, aplicando buenas prácticas, código limpio, documentación y pruebas en cada etapa.

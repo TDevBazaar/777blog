@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Rama de olivo con frutos iluminada al atardecer">
+  <defs>
+    <linearGradient id="ft" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff3d6"/>
+      <stop offset="1" stop-color="#e9c349"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#ft)"/>
+  <g stroke="#735c00" stroke-width="6" fill="none" stroke-linecap="round">
+    <path d="M80 340 C200 300 320 220 560 90"/>
+    <path d="M200 290 C260 270 300 230 320 200"/>
+    <path d="M340 220 C400 190 440 140 480 110"/>
+  </g>
+  <g fill="#5a7d4a">
+    <ellipse cx="150" cy="305" rx="34" ry="14" transform="rotate(-30 150 305)"/>
+    <ellipse cx="210" cy="272" rx="34" ry="14" transform="rotate(-20 210 272)"/>
+    <ellipse cx="290" cy="215" rx="34" ry="14" transform="rotate(-35 290 215)"/>
+    <ellipse cx="360" cy="180" rx="34" ry="14" transform="rotate(-25 360 180)"/>
+    <ellipse cx="440" cy="135" rx="34" ry="14" transform="rotate(-30 440 135)"/>
+    <ellipse cx="510" cy="100" rx="34" ry="14" transform="rotate(-20 510 100)"/>
+  </g>
+  <g fill="#183153">
+    <circle cx="240" cy="262" r="9"/>
+    <circle cx="320" cy="205" r="9"/>
+    <circle cx="400" cy="165" r="9"/>
+    <circle cx="480" cy="120" r="9"/>
+  </g>
+</svg>

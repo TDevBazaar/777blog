@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Paisaje sereno de montañas al amanecer con luz dorada">
+  <defs>
+    <linearGradient id="cielo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#183153"/>
+      <stop offset="0.55" stop-color="#4a6488"/>
+      <stop offset="0.8" stop-color="#e9c349"/>
+      <stop offset="1" stop-color="#fcf9f8"/>
+    </linearGradient>
+    <linearGradient id="montana1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#30476b"/>
+      <stop offset="1" stop-color="#1a2740"/>
+    </linearGradient>
+    <linearGradient id="montana2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8299c1"/>
+      <stop offset="1" stop-color="#3d5576"/>
+    </linearGradient>
+    <radialGradient id="sol" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe088" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffe088" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#cielo)"/>
+  <circle cx="1200" cy="480" r="260" fill="url(#sol)"/>
+  <circle cx="1200" cy="480" r="70" fill="#ffe088" opacity="0.95"/>
+  <path d="M0 560 L220 380 L420 560 L640 340 L860 560 L1080 400 L1300 560 L1420 460 L1600 580 L1600 900 L0 900 Z" fill="url(#montana2)" opacity="0.85"/>
+  <path d="M0 660 L260 480 L500 660 L760 470 L1040 660 L1280 520 L1500 660 L1600 600 L1600 900 L0 900 Z" fill="url(#montana1)"/>
+  <path d="M0 820 Q400 760 800 810 T1600 800 L1600 900 L0 900 Z" fill="#fcf9f8" opacity="0.92"/>
+</svg>

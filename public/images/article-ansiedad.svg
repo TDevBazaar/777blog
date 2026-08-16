@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Vela encendida sobre fondo azul profundo">
+  <defs>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe088" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#ffe088" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fondoV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1424"/>
+      <stop offset="1" stop-color="#001c3c"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#fondoV)"/>
+  <circle cx="320" cy="200" r="180" fill="url(#halo)"/>
+  <path d="M320 150 C300 175 305 195 320 205 C335 195 340 175 320 150 Z" fill="#ffffff"/>
+  <rect x="304" y="205" width="32" height="95" rx="6" fill="#fcf9f8"/>
+  <rect x="312" y="230" width="16" height="55" rx="4" fill="#fed65b" opacity="0.25"/>
+  <ellipse cx="320" cy="340" rx="140" ry="18" fill="#001c3c"/>
+</svg>

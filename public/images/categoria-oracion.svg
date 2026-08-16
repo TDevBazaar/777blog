@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Mano de oración estilizada en azul marino y dorado">
+  <defs>
+    <linearGradient id="f2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#183153"/>
+      <stop offset="1" stop-color="#001c3c"/>
+    </linearGradient>
+    <linearGradient id="luz" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffe088" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#ffe088" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#f2)"/>
+  <rect width="400" height="300" fill="url(#luz)"/>
+  <g fill="none" stroke="#fed65b" stroke-width="5" stroke-linecap="round">
+    <path d="M170 120 C170 100 180 92 196 92 C212 92 222 102 222 120 C222 136 214 144 200 152 C186 144 178 136 178 124"/>
+    <path d="M196 92 C196 84 202 80 210 80 C218 80 224 86 224 94 C224 102 218 108 210 112"/>
+    <path d="M224 120 C236 118 244 124 244 134 C244 144 234 150 226 146"/>
+    <path d="M222 100 C232 94 244 98 246 108 C248 118 240 126 230 124"/>
+  </g>
+  <path d="M150 240 L210 190 L260 240 Z" fill="#ffffff" opacity="0.12"/>
+  <path d="M180 255 L210 225 L250 255 Z" fill="#ffffff" opacity="0.1"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Icono de herramientas estilizado">
+  <defs>
+    <linearGradient id="f3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fcf9f8"/>
+      <stop offset="1" stop-color="#f0eded"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#f3)"/>
+  <g transform="translate(200 140)" fill="none" stroke="#183153" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="0" cy="0" r="66" stroke="#c4c6cf" stroke-width="3" fill="#ffffff"/>
+    <rect x="-52" y="16" width="104" height="10" rx="5" transform="rotate(45)" fill="#001c3c"/>
+    <circle cx="0" cy="0" r="22" fill="#fed65b"/>
+  </g>
+</svg>

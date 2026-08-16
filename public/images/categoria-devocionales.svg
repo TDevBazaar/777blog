@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Corazón dorado sobre fondo cálido">
+  <defs>
+    <linearGradient id="f" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6f3f2"/>
+      <stop offset="1" stop-color="#eae7e7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#f)"/>
+  <path d="M200 236 C120 190 60 150 60 104 C60 68 90 46 118 46 C142 46 160 58 172 74 C184 58 202 46 226 46 C254 46 284 68 284 104 C284 150 224 190 200 236 Z" fill="#fed65b" opacity="0.9"/>
+  <circle cx="200" cy="95" r="42" fill="#fcf9f8" opacity="0.35"/>
+</svg>

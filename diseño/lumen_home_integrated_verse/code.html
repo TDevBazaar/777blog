@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Lumen Bible Study - Illuminate Your Soul with Sacred Wisdom</title>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&amp;family=Geist:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Configuration -->
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "on-secondary-fixed": "#241a00",
+                      "on-background": "#1b1c1c",
+                      "surface-container-low": "#f6f3f2",
+                      "error-container": "#ffdad6",
+                      "outline-variant": "#c4c6cf",
+                      "on-error-container": "#93000a",
+                      "surface-bright": "#fcf9f8",
+                      "on-secondary": "#ffffff",
+                      "on-surface": "#1b1c1c",
+                      "surface-container-lowest": "#ffffff",
+                      "secondary": "#735c00",
+                      "surface-container-high": "#eae7e7",
+                      "secondary-fixed": "#ffe088",
+                      "tertiary": "#001b41",
+                      "surface": "#fcf9f8",
+                      "background": "#fcf9f8",
+                      "inverse-primary": "#b0c8f1",
+                      "surface-container-highest": "#e4e2e1",
+                      "surface-dim": "#dcd9d9",
+                      "primary": "#001c3c",
+                      "on-secondary-fixed-variant": "#574500",
+                      "on-tertiary-fixed-variant": "#004492",
+                      "outline": "#74777f",
+                      "primary-container": "#183153",
+                      "on-primary-fixed": "#001b3c",
+                      "on-surface-variant": "#44474e",
+                      "error": "#ba1a1a",
+                      "primary-fixed": "#d5e3ff",
+                      "on-primary-fixed-variant": "#30476b",
+                      "on-tertiary": "#ffffff",
+                      "secondary-container": "#fed65b",
+                      "inverse-surface": "#303030",
+                      "tertiary-fixed": "#d7e2ff",
+                      "on-primary-container": "#8299c1",
+                      "primary-fixed-dim": "#b0c8f1",
+                      "on-tertiary-fixed": "#001a40",
+                      "on-tertiary-container": "#5b97ff",
+                      "secondary-fixed-dim": "#e9c349",
+                      "on-secondary-container": "#745c00",
+                      "tertiary-container": "#002f68",
+                      "surface-tint": "#485f84",
+                      "on-primary": "#ffffff",
+                      "on-error": "#ffffff",
+                      "surface-variant": "#e4e2e1",
+                      "tertiary-fixed-dim": "#acc7ff",
+                      "surface-container": "#f0eded",
+                      "inverse-on-surface": "#f3f0f0"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "gutter": "24px",
+                      "margin-desktop": "40px",
+                      "margin-mobile": "16px",
+                      "stack-sm": "8px",
+                      "stack-md": "24px",
+                      "stack-lg": "48px",
+                      "container-max": "1120px",
+                      "unit": "8px"
+              },
+              "fontFamily": {
+                      "display-lg-mobile": [
+                              "Playfair Display"
+                      ],
+                      "verse-text": [
+                              "Playfair Display"
+                      ],
+                      "headline-md": [
+                              "Playfair Display"
+                      ],
+                      "body-lg": [
+                              "Geist"
+                      ],
+                      "display-lg": [
+                              "Playfair Display"
+                      ],
+                      "label-md": [
+                              "Geist"
+                      ],
+                      "caption": [
+                              "Geist"
+                      ],
+                      "body-md": [
+                              "Geist"
+                      ]
+              },
+              "fontSize": {
+                      "display-lg-mobile": [
+                              "36px",
+                              {
+                                      "lineHeight": "1.2",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "verse-text": [
+                              "24px",
+                              {
+                                      "lineHeight": "1.6",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "headline-md": [
+                              "32px",
+                              {
+                                      "lineHeight": "1.3",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "body-lg": [
+                              "18px",
+                              {
+                                      "lineHeight": "1.7",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "display-lg": [
+                              "48px",
+                              {
+                                      "lineHeight": "1.2",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "label-md": [
+                              "14px",
+                              {
+                                      "lineHeight": "1.4",
+                                      "letterSpacing": "0.05em",
+                                      "fontWeight": "500"
+                              }
+                      ],
+                      "caption": [
+                              "12px",
+                              {
+                                      "lineHeight": "1.4",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "body-md": [
+                              "16px",
+                              {
+                                      "lineHeight": "1.6",
+                                      "fontWeight": "400"
+                              }
+                      ]
+              }
+      },
+          },
+        }
+      </script>
+<style>
+        /* Ambient Shadows & Tonal Layers */
+        .ambient-shadow-sm { box-shadow: 0 4px 20px rgba(24, 49, 83, 0.04); }
+        .ambient-shadow-md { box-shadow: 0 12px 30px rgba(24, 49, 83, 0.08); }
+        
+        /* Smooth Scrolling */
+        html { scroll-behavior: smooth; }
+        
+        /* Hide scrollbar for horizontal lists but keep functionality */
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+<body class="bg-background text-on-background min-h-screen flex flex-col font-body-md antialiased">
+<!-- TopNavBar -->
+<nav class="bg-surface/80 dark:bg-surface-dim/80 backdrop-blur-md fixed top-0 left-0 w-full z-50 shadow-sm border-b border-transparent">
+<div class="flex justify-between items-center h-20 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<!-- Brand Logo -->
+<a class="flex items-center gap-stack-sm group" href="#">
+<img alt="Lumen Bible Study Logo" class="h-10 w-10 rounded-full shadow-sm group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB0RVg-xQ5ybM-d_DS4kbY5pAqrUp_Y87juQqTaS4B2WfHV4-cSEtgf_o_ANTg3HvP6sSiRv0kRUkSmlhDqRaA_O3UZ4CWWOr2v9Kudo6h9w6rjnXb2BUkCRzFyS1xWkpYxtaj_PwugeB5BPlde_holmLQwYqjkzIXgYErlQDaSmw89H5jcQ4LZ_bWee_Wsq7sN5nQio0HR-EqlyilGfuANVVhs4la3KWIrQRDl8uYeDHe8Px7dkrP1tQ"/>
+<span class="font-display-lg text-display-lg-mobile md:text-[24px] md:font-bold text-primary dark:text-primary-fixed tracking-tight">Lumen Bible Study</span>
+</a>
+<!-- Navigation Links (Desktop) -->
+<ul class="hidden md:flex items-center gap-stack-md">
+<li><a class="text-on-surface-variant dark:text-outline-variant hover:text-secondary-fixed-variant transition-colors duration-200 font-label-md text-label-md cursor-pointer active:scale-95" href="#">Study</a></li>
+<li><a class="text-on-surface-variant dark:text-outline-variant hover:text-secondary-fixed-variant transition-colors duration-200 font-label-md text-label-md cursor-pointer active:scale-95" href="#">Tools</a></li>
+<li><a class="text-on-surface-variant dark:text-outline-variant hover:text-secondary-fixed-variant transition-colors duration-200 font-label-md text-label-md cursor-pointer active:scale-95" href="#">Articles</a></li>
+<li><a class="text-on-surface-variant dark:text-outline-variant hover:text-secondary-fixed-variant transition-colors duration-200 font-label-md text-label-md cursor-pointer active:scale-95" href="#">Community</a></li>
+</ul>
+<!-- Right Actions -->
+<div class="flex items-center gap-stack-sm">
+<!-- Search Bar (Desktop) -->
+<div class="hidden md:flex relative items-center">
+<span class="material-symbols-outlined absolute left-3 text-outline text-[20px]" data-icon="search">search</span>
+<input class="bg-surface-container-lowest border border-outline-variant rounded-[12px] pl-10 pr-4 py-2 text-label-md font-label-md text-on-surface placeholder:text-outline focus:outline-none focus:border-tertiary-container focus:ring-1 focus:ring-tertiary-container transition-all w-64" placeholder="Search scripture..." type="text"/>
+</div>
+<button aria-label="Dark Mode" class="text-primary dark:text-primary-fixed hover:text-secondary-fixed-variant transition-colors duration-200 cursor-pointer active:scale-95 p-2 rounded-full hover:bg-surface-container-low">
+<span class="material-symbols-outlined" data-icon="dark_mode">dark_mode</span>
+</button>
+<button aria-label="Menu" class="md:hidden text-primary dark:text-primary-fixed hover:text-secondary-fixed-variant transition-colors duration-200 cursor-pointer active:scale-95 p-2 rounded-full hover:bg-surface-container-low">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+</div>
+</div>
+</nav>
+<!-- Main Content Canvas -->
+<main class="flex-grow pt-20"> <!-- Offset for fixed nav -->
+<!-- Hero Section -->
+<section class="relative min-h-[90vh] flex flex-col items-center justify-center overflow-hidden px-margin-mobile md:px-margin-desktop py-stack-lg">
+<!-- Background Image -->
+<div class="absolute inset-0 z-0 bg-surface-container-highest">
+<div class="absolute inset-0 bg-cover bg-center opacity-30 mix-blend-multiply" data-alt="A serene, breathtaking landscape of mountains at dawn, bathed in soft, ethereal golden light piercing through gentle morning mist. The atmosphere is deeply tranquil, sacred, and inspiring, embodying a modern, minimalist light-mode aesthetic with warm white and soft gold tones. High quality, cinematic lighting." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAcVZ39revLbdo3B5u4yAJrlKIDOUb4E9NcAJ85D9-gqpPBPGnsJlQF2Iz9fSDroJPP3-hG0_DW8YnvCGf6gZZn9YNz4kkQci_XA7_RnAZVn5_jCDP70D81X5I7e1QUzNL0bep9cBaT8zFcyN39mtIpBpsht85JYkGubuLPhrGnEtMZhyTYLsBBmbY0Og5N-bA2BhTDttRkBOXFg00x64vayGbM9u68yZNLp_L1i7WPaB7jKPWpawgh4g')"></div>
+<div class="absolute inset-0 bg-gradient-to-b from-background/40 via-background/60 to-background z-10"></div>
+</div>
+<div class="relative z-20 max-w-4xl mx-auto text-center flex flex-col items-center gap-stack-md mt-stack-md">
+<span class="font-label-md text-label-md text-secondary tracking-widest uppercase">The Digital Sanctuary</span>
+<h1 class="font-display-lg text-display-lg-mobile md:text-[56px] text-primary leading-tight">Illuminate Your Soul <br class="hidden md:block"/> with Sacred Wisdom</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mb-4">The digital sanctuary for deep biblical study and daily spiritual growth. Discover clarity and peace in the Word.</p>
+<!-- Integrated Verse of the Day -->
+<div class="bg-surface-container-lowest/80 backdrop-blur-sm rounded-2xl ambient-shadow-md p-stack-md md:p-stack-lg border-l-4 border-secondary flex flex-col gap-stack-sm hover:ambient-shadow-sm transition-shadow duration-300 w-full max-w-2xl text-left my-stack-sm">
+<div class="flex justify-between items-start mb-2">
+<span class="font-label-md text-label-md text-secondary uppercase tracking-wider flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px]" data-icon="wb_sunny">wb_sunny</span>
+            Verse of the Day
+        </span>
+<div class="flex gap-2">
+<button aria-label="Share" class="text-outline hover:text-primary transition-colors p-1">
+<span class="material-symbols-outlined text-[20px]" data-icon="share">share</span>
+</button>
+<button aria-label="Save" class="text-outline hover:text-primary transition-colors p-1">
+<span class="material-symbols-outlined text-[20px]" data-icon="bookmark_border">bookmark_border</span>
+</button>
+</div>
+</div>
+<blockquote class="font-verse-text text-verse-text text-primary italic leading-relaxed">
+        "Your word is a lamp for my feet, a light on my path."
+    </blockquote>
+<div class="flex justify-between items-end mt-2">
+<p class="font-headline-md text-headline-md text-on-surface-variant text-[18px]">Psalm 119:105</p>
+<button class="text-tertiary-container font-label-md text-label-md flex items-center gap-1 hover:text-tertiary transition-colors">
+            Read Explanation
+            <span class="material-symbols-outlined text-[16px]" data-icon="chevron_right">chevron_right</span>
+</button>
+</div>
+</div>
+<div class="flex flex-col sm:flex-row gap-stack-sm mt-stack-sm w-full sm:w-auto">
+<button class="bg-primary text-on-primary font-label-md text-label-md py-3 px-8 rounded-lg hover:scale-[0.98] transition-transform duration-200 shadow-sm">Start Reading</button>
+<button class="bg-transparent text-secondary border border-secondary font-label-md text-label-md py-3 px-8 rounded-lg hover:bg-secondary/5 transition-colors duration-200">Verse of the Day</button>
+</div>
+<!-- Prominent Search (Mobile Fallback / Hero Emphasis) -->
+<div class="w-full max-w-xl mt-stack-lg relative group">
+<div class="absolute inset-0 bg-white rounded-2xl ambient-shadow-md group-hover:ambient-shadow-sm transition-shadow duration-300"></div>
+<div class="relative flex items-center p-2">
+<span class="material-symbols-outlined text-primary ml-3 mr-2" data-icon="search">search</span>
+<input class="w-full bg-transparent border-none text-body-md font-body-md text-on-surface placeholder:text-outline focus:ring-0 px-2 py-3 rounded-r-2xl" placeholder="Search a passage, topic, or keyword..." type="text"/>
+<button class="bg-tertiary-container text-on-tertiary-container p-3 rounded-xl hover:bg-tertiary transition-colors mr-1">
+<span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Main Content Area (Fixed Center Grid for Reading/Focus) -->
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-stack-lg flex flex-col gap-[80px]">
+<!-- Categories Grid (Bento Style) -->
+<section class="w-full">
+<div class="flex justify-between items-end mb-stack-md">
+<h2 class="font-headline-md text-headline-md text-primary">Explore the Sanctuary</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-stack-md auto-rows-[200px]">
+<!-- Bible Study (Large) -->
+<a class="md:col-span-2 md:row-span-2 rounded-[16px] overflow-hidden relative group ambient-shadow-sm hover:ambient-shadow-md transition-all duration-300" href="#">
+<div class="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform duration-700" data-alt="An open, beautifully bound leather Bible resting on a clean, modern white desk, softly illuminated by natural sunlight filtering through an unseen window. Minimalist aesthetic, warm white tones, soft shadows, evoking a sense of deep study and reverence. Focus on the texture of the pages." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBFNZ6-PMtzLUjZSPIQM_N8d3WxOxwqjxxFw9Sx0isF9oWTds-gDCmiA4lSReOpPKiZ_qjCU5PfIk3vfjUvinOYWXWf9s23sHJc2eGoaYvs4Wc2vxJyOBmX8bStP90B2hwQPuJf4xGrh7UBkNCjs-Clo-2djeQcLOfys1lH4ZnUikA87ZXkstuSVYPw5i9Bes6YCnefuRINVt5vpfY7Sfs17WBvzvNMsXHK8Ntkb-UcdXKzVaDAwHzD2A')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-stack-md w-full flex flex-col gap-2">
+<div class="bg-surface/20 backdrop-blur-md w-fit p-2 rounded-full mb-2">
+<span class="material-symbols-outlined text-white" data-icon="menu_book">menu_book</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-white text-[24px]">Bible Study</h3>
+<p class="font-body-md text-body-md text-white/80">Dive deep into the scriptures with interactive tools.</p>
+</div>
+</a>
+<!-- Daily Devotionals -->
+<a class="rounded-[16px] bg-surface-container-low p-stack-md flex flex-col justify-between group hover:bg-surface-container-high transition-colors ambient-shadow-sm border border-transparent hover:border-outline-variant/30" href="#">
+<div class="bg-surface w-fit p-3 rounded-xl shadow-sm text-secondary">
+<span class="material-symbols-outlined" data-icon="favorite">favorite</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-primary text-[20px] mb-1">Daily Devotionals</h3>
+<p class="font-caption text-caption text-on-surface-variant">Inspiration for your daily walk.</p>
+</div>
+</a>
+<!-- Prayer Center -->
+<a class="rounded-[16px] bg-primary-container p-stack-md flex flex-col justify-between group hover:opacity-90 transition-opacity ambient-shadow-sm" href="#">
+<div class="bg-white/10 w-fit p-3 rounded-xl text-primary-fixed">
+<span class="material-symbols-outlined" data-icon="folded_hands">folded_hands</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-white text-[20px] mb-1">Prayer Center</h3>
+<p class="font-caption text-caption text-white/70">Submit and join in prayer.</p>
+</div>
+</a>
+<!-- Bible Tools -->
+<a class="rounded-[16px] bg-surface-container-lowest p-stack-md flex flex-col justify-between group hover:ambient-shadow-md transition-shadow ambient-shadow-sm border border-outline-variant/20" href="#">
+<div class="bg-surface-container-low w-fit p-3 rounded-xl text-tertiary">
+<span class="material-symbols-outlined" data-icon="build">build</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-primary text-[20px] mb-1">Bible Tools</h3>
+<p class="font-caption text-caption text-on-surface-variant">Lexicon, Concordance, &amp; Maps.</p>
+</div>
+</a>
+<!-- Reading Plans -->
+<a class="rounded-[16px] bg-surface-container-lowest p-stack-md flex flex-col justify-between group hover:ambient-shadow-md transition-shadow ambient-shadow-sm border border-outline-variant/20" href="#">
+<div class="bg-surface-container-low w-fit p-3 rounded-xl text-tertiary">
+<span class="material-symbols-outlined" data-icon="calendar_month">calendar_month</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-primary text-[20px] mb-1">Reading Plans</h3>
+<p class="font-caption text-caption text-on-surface-variant">Guided journeys through the Word.</p>
+</div>
+</a>
+</div>
+</section>
+<!-- Latest Articles (Horizontal Scroll) -->
+<section class="w-full">
+<div class="flex justify-between items-end mb-stack-md">
+<div>
+<h2 class="font-headline-md text-headline-md text-primary">Latest Articles</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Insights and reflections from biblical scholars.</p>
+</div>
+<button class="hidden md:flex text-tertiary-container font-label-md text-label-md items-center gap-1 hover:text-tertiary transition-colors">
+                        View All
+                        <span class="material-symbols-outlined text-[16px]" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+<div class="flex overflow-x-auto gap-stack-md pb-stack-sm no-scrollbar snap-x snap-mandatory -mx-margin-mobile px-margin-mobile md:mx-0 md:px-0">
+<!-- Article Card 1 -->
+<div class="min-w-[280px] md:min-w-[320px] flex flex-col gap-stack-sm snap-start group cursor-pointer">
+<div class="w-full h-[200px] rounded-[12px] overflow-hidden relative">
+<div class="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="A macro shot of a weathered stone tablet with ancient, indecipherable engravings, sitting in soft, dramatic directional lighting. Minimalist aesthetic, focusing on the texture of the stone and the mystery of historical artifacts. Warm, neutral color palette." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC-V-vgbr6ltStcpCoH0M-ROqYdFq2Ud89SK-mK1M3ycv2eBLBXNGq9-6UPod3GgxaHe-mJ46sCZKTIvPkA6bIauVRFYQQ1NDQmovqEdtalJlTNt0d7n9ASO60wLKDqLDxsJbZcBATQqkHHDZGURu0pAlUOBmE_ASkuPYzfN3y3rXXhj41XbLXWgHfQTKjbpK6QirlqnxfI8N6KSoloCx9z1TIFP36_53XJnfXtsK_jo89X5p0TYb9rsA')"></div>
+</div>
+<div class="flex flex-col gap-1 mt-2">
+<span class="font-caption text-caption text-secondary uppercase tracking-wider">Historical Context</span>
+<h3 class="font-headline-md text-headline-md text-primary text-[18px] leading-tight group-hover:text-secondary-fixed-variant transition-colors">Understanding the Cultural Background of Ephesians</h3>
+<p class="font-caption text-caption text-on-surface-variant mt-1">By Dr. Sarah Jenkins • 5 min read</p>
+</div>
+</div>
+<!-- Article Card 2 -->
+<div class="min-w-[280px] md:min-w-[320px] flex flex-col gap-stack-sm snap-start group cursor-pointer">
+<div class="w-full h-[200px] rounded-[12px] overflow-hidden relative">
+<div class="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="A serene, abstract composition of soft, overlapping translucent white and pale blue geometric shapes, evoking a sense of peace, clarity, and spiritual reflection. Modern, clean, light-mode aesthetic with subtle shadows and depth." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD3jnbumyCim-d_DFtwPk-aNOtV_G2cUr5bSxmM_mHHhmggYA9D_Jw3PfWlofYYOhT_j2qwk_rQgstiWmY99HwWhwGrXaA8u9dchQeBASZVQUO7Fpn4GJCURAxu7zdGRJRxY63FDyeB7pQSTgOJpP23nIPpfKxPjc8uDUqviOIuJD7K2iRT8JwDgWv2M8PxcG-G-inK7jUH3BBl4QvA0S4Rn7YCdcxBF0XsBRAWYKzz-YJn2HVZyLpw_Q')"></div>
+</div>
+<div class="flex flex-col gap-1 mt-2">
+<span class="font-caption text-caption text-secondary uppercase tracking-wider">Theology</span>
+<h3 class="font-headline-md text-headline-md text-primary text-[18px] leading-tight group-hover:text-secondary-fixed-variant transition-colors">The Concept of Grace in the Early Church</h3>
+<p class="font-caption text-caption text-on-surface-variant mt-1">By Rev. Thomas Moore • 8 min read</p>
+</div>
+</div>
+<!-- Article Card 3 -->
+<div class="min-w-[280px] md:min-w-[320px] flex flex-col gap-stack-sm snap-start group cursor-pointer">
+<div class="w-full h-[200px] rounded-[12px] overflow-hidden relative">
+<div class="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="A minimalist photograph of a single olive branch resting on a clean, textured white surface. Soft, natural lighting creates gentle shadows. The image conveys peace, simplicity, and a connection to biblical landscapes. High contrast, clean aesthetic." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC9jdmuyWbaqOliT9yMZzLDeYkoYeh1QbOKT1JZmIezHBjZQPoAOasAGQ3IZ1TeT1iOwUlvZZ8ToA6Yq00VLj4OB6Ko1NfDcAtxwSmniiwYeI2DqDyhZ5PN70V3ndLGMkKbL2wf5QCrDLGTHY09uGF9_0vgW4L_m4rPdP7RI8SgmpbkfufAGzG2Xv18cp4X_1bvmTkRTJhN4N4OjW_qNXNSMC69LBQBa71A1xlDiBFjEl_uzz2bmnWtIQ')"></div>
+</div>
+<div class="flex flex-col gap-1 mt-2">
+<span class="font-caption text-caption text-secondary uppercase tracking-wider">Christian Living</span>
+<h3 class="font-headline-md text-headline-md text-primary text-[18px] leading-tight group-hover:text-secondary-fixed-variant transition-colors">Finding Stillness in a Noisy World</h3>
+<p class="font-caption text-caption text-on-surface-variant mt-1">By Elena Rostova • 4 min read</p>
+</div>
+</div>
+</div>
+</section>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-low dark:bg-surface-container-highest border-t border-outline-variant dark:border-outline w-full py-stack-lg">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-stack-md px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<!-- Brand Column -->
+<div class="flex flex-col gap-stack-sm md:col-span-1">
+<a class="flex items-center gap-stack-sm" href="#">
+<img alt="Lumen Bible Study Logo" class="h-8 w-8 rounded-full shadow-sm" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB0RVg-xQ5ybM-d_DS4kbY5pAqrUp_Y87juQqTaS4B2WfHV4-cSEtgf_o_ANTg3HvP6sSiRv0kRUkSmlhDqRaA_O3UZ4CWWOr2v9Kudo6h9w6rjnXb2BUkCRzFyS1xWkpYxtaj_PwugeB5BPlde_holmLQwYqjkzIXgYErlQDaSmw89H5jcQ4LZ_bWee_Wsq7sN5nQio0HR-EqlyilGfuANVVhs4la3KWIrQRDl8uYeDHe8Px7dkrP1tQ"/>
+<span class="font-display-lg text-display-lg-mobile md:text-[20px] font-bold text-primary dark:text-on-surface tracking-tight">Lumen Bible Study</span>
+</a>
+<p class="font-caption text-caption text-on-surface-variant mt-2">Illuminating paths through scripture with clarity and reverence.</p>
+</div>
+<!-- Links Columns -->
+<div class="flex flex-col gap-stack-sm md:col-span-2 md:col-start-3 grid grid-cols-2">
+<ul class="flex flex-col gap-2">
+<li><a class="font-label-md text-label-md text-on-surface-variant dark:text-outline-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors cursor-pointer" href="#">Reading Plans</a></li>
+<li><a class="font-label-md text-label-md text-on-surface-variant dark:text-outline-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors cursor-pointer" href="#">Lexicon</a></li>
+<li><a class="font-label-md text-label-md text-on-surface-variant dark:text-outline-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors cursor-pointer" href="#">Concordance</a></li>
+</ul>
+<ul class="flex flex-col gap-2">
+<li><a class="font-label-md text-label-md text-on-surface-variant dark:text-outline-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors cursor-pointer" href="#">About Us</a></li>
+<li><a class="font-label-md text-label-md text-on-surface-variant dark:text-outline-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors cursor-pointer" href="#">Contact</a></li>
+<li><a class="font-label-md text-label-md text-on-surface-variant dark:text-outline-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors cursor-pointer" href="#">Privacy Policy</a></li>
+</ul>
+</div>
+<!-- Copyright -->
+<div class="md:col-span-4 mt-stack-md pt-stack-sm border-t border-outline-variant/30 flex justify-between items-center">
+<p class="font-caption text-caption text-on-surface-variant">© 2024 Lumen Bible Study. All rights reserved.</p>
+<div class="flex gap-4">
+<!-- Social icons placeholders -->
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined text-[20px]" data-icon="language">language</span></a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>
